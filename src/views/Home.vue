@@ -5,16 +5,10 @@
       <WhLogo />
     </div>
     <div class="maps">
-      <router-link tag="div" to="/map/vortex/strategic?layer=None&overlays=Settlements,Map%20labels">
-        <WhMapSelectButton
-          campaign="vortex"
-          title="The Eye of the Vortex"
-        />
-      </router-link>
       <router-link tag="div" to="/map/mortal/strategic?layer=None&overlays=Settlements,Map%20labels">
         <WhMapSelectButton
           campaign="mortal"
-          title="Mortal Empires"
+          title="Joe's D&D Crew"
         />
       </router-link>
     </div>
